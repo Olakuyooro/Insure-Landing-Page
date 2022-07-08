@@ -140,7 +140,7 @@ body {
 
 #right-pattern {
   position: absolute;
-  top: 0rem;
+  top: 3.9rem;
   right: -0.938rem;
   width: 28rem;
   height: 70vh;
@@ -511,6 +511,7 @@ body {
   line-height: 1em;
   margin: auto;
   margin-bottom: 2rem;
+  margin-right: 9rem;
 }
 
 #para {
@@ -520,6 +521,7 @@ body {
   text-align: center;
   margin: auto;
   margin-bottom: 4rem;
+  margin-right: 9rem;
 }
 
 #plans {
@@ -528,6 +530,7 @@ body {
   width: 40vw;
   margin: auto;
   text-align: center;
+  margin-right: 10rem;
 }
 
 .manifesto{
@@ -630,7 +633,7 @@ body {
 
 .foot{
   padding: 3rem;
-  min-height: 140vh;
+  min-height: 120vh;
   position: relative;
 }
 
