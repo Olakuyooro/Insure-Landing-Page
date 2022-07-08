@@ -1,0 +1,703 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-size: calc(0.3em + 1vw);
+  margin: 0;
+ 
+}
+
+body {
+  background-color: white;
+}
+
+.head {
+  display: flex;
+  font-family: "Karla", sans-serif;
+  margin-bottom: 1rem;
+  width: 100vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#logo {
+  margin-top: 1.5rem;
+  padding-left: 4rem;
+}
+
+.nava{
+  margin-left: auto;
+  padding-top: 0.5rem;
+  padding-right: 4rem;
+}
+
+.ruly-mobile{
+  display: none;
+}
+
+.unruly {
+  text-transform: uppercase;
+}
+
+.unruly li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  opacity: 70%;
+}
+
+.unruly li:hover {
+  cursor: pointer;
+  opacity: 100%;
+
+}
+
+#view {
+  border: solid 0.125rem black;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  opacity: 100%;
+}
+
+#view:hover{
+  background-color: black;
+  color: white;
+}
+
+#hamburger{
+  display: none;
+}
+#close{
+  display: none;
+}
+
+/* #hamburger {
+  display: none;
+} */
+
+
+.ama{
+  position: relative;
+}
+
+#mobile-family{
+  display: none;
+}
+
+.introduction {
+  background-color: hsl(256, 26%, 20%, 95%);
+  width: 100vw;
+  min-height: 95vh;
+  color: white;
+  padding-left: 6rem;
+  position: relative;
+}
+
+#line {
+  width: 11%;
+  padding-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+#human {
+  font-family: "DM Serif Display", serif;
+  font-size: 4rem;
+  font-size: 700;
+  width: 35vw;
+  line-height: 3.5rem;
+  margin-bottom: 1.8rem;
+}
+
+#para {
+  font-family: "Karla", sans-serif;
+  font-size: 0.8rem;
+  width: 40%;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+#plans {
+  font-family: "Karla", sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border: solid 0.125rem white;
+  padding: 0.5rem;
+  text-align: center;
+  width: 8rem;
+}
+
+#plans:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+
+#right-pattern {
+  position: absolute;
+  top: 0rem;
+  right: -0.938rem;
+  width: 28rem;
+  height: 70vh;
+}
+
+#left-pattern {
+  position: absolute;
+  left: -2rem;
+  top: 400px;
+}
+#family {
+  position: absolute;
+  right: 8.375rem;
+  top: 8.688rem;
+  width: 40vw;
+}
+
+#mobile-left{
+  display: none;
+}
+
+#mobile-right{
+  display: none;
+}
+
+
+.manifesto {
+  margin-top: 17rem;
+  padding-left: 6rem;
+  margin-bottom: 8rem;
+}
+
+#ila {
+  width: 10%;
+  margin-bottom: 3rem;
+}
+
+#different {
+  font-family: "DM Serif Display", serif;
+  font-size: 4rem;
+  opacity: 90%;
+  margin-bottom: 1.5em;
+}
+
+.forum {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 9rem;
+}
+
+#snap {
+  width: 25vw;
+}
+
+#afod {
+  width: 25vw;
+}
+
+#peeps {
+  width: 25vw;
+}
+
+#snappyimg {
+  margin-bottom: 1.5rem;
+}
+#afford {
+  margin-bottom: 1.5rem;
+}
+#eyan {
+  margin-bottom: 1.5rem;
+}
+
+.snappy {
+  font-family: "DM Serif Display", serif;
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
+}
+/* #affordable {
+  font-family: "DM Serif Display", serif;
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
+}
+#people {
+  font-family: "DM Serif Display", serif;
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
+} */
+.allpara {
+  font-family: "Karla", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  opacity: 60%;
+  line-height: 1.5em;
+}
+
+.we-work {
+  background-color: hsl(256, 26%, 20%, 95%);
+  background-image: url(images/bg-pattern-how-we-work-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: 750px;
+  width: 83vw;
+  min-height: 13.6rem;
+  margin: auto;
+  margin-bottom: 10rem;
+  color: white;
+  padding: 3rem;
+  display: flex;
+}
+
+#work-mobile{
+  display: none;
+}
+
+#bold {
+  font-family: "DM Serif Display", serif;
+  font-size: 2.5rem;
+  font-size: 700;
+  width: 22rem;
+}
+
+#ishe {
+  margin-left: auto;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Karla", sans-serif;
+  border: solid 0.125rem white;
+  width: 10rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  height: 28%;
+  margin-top: 3rem;
+}
+
+#ishe:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+
+#work-pattern{
+    position: absolute;
+    top: 0rem;
+    right: 0;
+    bottom: 0;
+    width: 38.5%;
+}
+
+
+.foot{
+    background-color: hsl(0, 0%, 98%);
+    min-height: 65vh;
+    padding: 6rem;
+    width: 100vw;
+}
+
+
+.medium{
+    display:flex;
+    margin-bottom: 1.5rem;
+}
+
+#mobile-footer{
+  display: none;
+}
+
+#footlogo{
+    width: 10%;
+    height: 5%;
+}
+
+.socialicons{
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 18rem;
+}
+
+.socialicons li{
+    list-style: none;
+    display: inline-block;
+}
+
+.suru:hover{
+  cursor: pointer;
+    background-color: black;
+    color: black;
+}
+
+
+#footline{
+    margin-bottom: 4rem;
+}
+
+.footboard{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    font-family: "Karla", sans-serif;
+    text-transform: uppercase;
+
+}
+.our{
+    font-size: 0.85rem;
+    word-spacing: 0.3rem;
+    font-weight: 700;
+    opacity: 60%;
+    margin-bottom: 2rem;
+}
+
+.footboard li{
+    font-size: 0.85rem;
+    list-style: none;
+    word-spacing: 0.3rem;
+    font-weight: 700;
+    opacity: 90%;
+    margin-bottom: 1.3rem;
+}
+
+.footboard li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px){
+
+  .head{
+    margin-bottom: 4rem;
+  }
+
+
+  .unruly{
+    display: none;
+  }
+  
+
+  #logo {
+    margin-top: 3rem;
+    padding-left: 2rem;
+  }
+
+ #hamburger {
+  display: block;
+  margin-left: auto;
+  padding-right: 1rem;
+  margin-top: 2rem;
+} 
+
+
+#hamburger.remove{
+  display: none;
+}
+
+#close{
+  display: none;
+ 
+}
+
+#close.visible{
+  display: block;
+  padding-right: 1rem;
+  margin-top: 2rem;
+}
+
+.ruly-mobile{
+  display: none;
+  background-color: hsl(256, 26%, 20%, 95%) ;
+  width: 100vw;
+  height: 150vw;
+  font-family: "Karla", sans-serif;
+  font-size: 7rem;
+  list-style: none;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 5rem;
+  color: white;
+  position: relative;
+}
+
+.ruly-mobile.visible{
+  display: block;
+}
+
+.ruly-mobile li{
+  text-align: center;
+  padding-right: 4rem;
+  margin-bottom: 6rem;
+}
+
+#foto{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#oview {
+  border: solid 0.125rem white;
+  width: 70%;
+  padding: 1rem;
+  margin: auto;
+  padding-right: 6rem;
+  padding-left: 4rem;
+}
+
+
+#family{
+  display: none;
+}
+
+.ama{
+  display: flex;
+  flex-direction: column;
+}
+
+#mobile-family{
+  display: block;
+}
+#mobile-family
+
+.introduction{
+  width: 100vw;
+  padding: 1rem;
+  padding-top: 10rem;
+  min-height: 75vh;
+  position: relative;
+  background-image: none;
+}
+
+#right-pattern{
+  display: none;
+}
+
+
+#mobile-left{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+#mobile-right{
+  position: absolute;
+  right: 0;
+  display: block ;
+}
+
+
+
+
+#left-pattern{
+  display: none;
+}
+
+#line{
+  display: none;
+}
+
+
+#human {
+  font-size: 5.5rem;
+  width: 90%;
+  text-align: center;
+  line-height: 1em;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+#para {
+  font-size: 1.9rem;
+  line-height: 3rem;
+  width: 80vw;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+#plans {
+  font-size: 2rem;
+  padding-left: 0rem;
+  width: 40vw;
+  margin: auto;
+  text-align: center;
+}
+
+.manifesto{
+  padding-left: 0rem;
+  padding: 1rem;
+  width: 95vw;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+
+#ila {
+  width: 40%;
+  opacity: 100%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+#different {
+  font-size: 6rem;
+  margin: auto;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.forum {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-right: 0rem;
+  margin: auto;
+}
+
+.snappy{
+  font-size: 3rem;
+}
+
+#snap {
+  width: 85vw;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+#afod {
+  width: 85vw;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+#peeps {
+  width: 85vw;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.allpara{
+  font-size: 1.7rem;
+  margin: auto;
+}
+
+.we-work{
+  min-height: 38rem;
+  flex-direction: column;
+  padding: 2rem;
+  margin: auto;
+  margin-bottom: 12rem;
+  position: relative;
+  /* background-image: url(images/bg-pattern-how-we-work-mobile.svg);
+  background-position: 18.625rem 0px; */
+}
+
+#work-mobile{
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+}
+
+#bold {
+  font-size: 4rem;
+  width: 100%;
+  text-align: center;
+}
+
+#work-pattern{
+  display: none;
+}
+
+#ishe{
+  margin: auto;
+  font-size: 1.5rem;
+  width: 15rem;
+  height: 4rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+
+
+.foot{
+  padding: 3rem;
+  min-height: 140vh;
+  position: relative;
+}
+
+#mobile-footer{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.footboard{
+  flex-direction: column;
+  text-align: center ;
+  margin: auto;
+}
+
+.our{
+  font-size: 1.5rem;
+}
+
+.footboard li{
+  font-size: 1.5rem;
+}
+
+.uye{
+  margin-bottom: 4rem;
+}
+
+.medium{
+  flex-direction: column;
+  margin-top: 9rem;
+  margin-bottom: 7rem;
+}
+
+
+#footlogo{
+  width: 12rem;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+
+.socialicons{
+  margin-left: 0;
+  width: 25rem;
+  margin: auto;
+  padding-right: 4rem;
+  justify-content: space-around;
+}
+
+.socialicons li img{
+  width: 100%;
+}
+
+}
+
+/* @media (orientation: landscape){
+  .we-work{
+    min-height: 38rem;
+    flex-direction: column;
+    padding: 2rem;
+    margin: auto;
+    margin-bottom: 12rem;
+    background-image: url(images/bg-pattern-how-we-work-mobile.svg);
+    background-position: 27.625rem 0px;
+  }
+  
+
+} */
