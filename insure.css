@@ -466,7 +466,7 @@ body {
 #mobile-family
 
 .introduction{
-  width: 100vw;
+  width: 100%;
   padding: 1rem;
   padding-top: 10rem;
   min-height: 75vh;
@@ -506,22 +506,22 @@ body {
 
 #human {
   font-size: 5.5rem;
-  width: 90%;
+  width: 80%;
   text-align: center;
   line-height: 1em;
   margin: auto;
   margin-bottom: 2rem;
-  margin-right: 9rem;
+  margin-right: 19rem;
 }
 
 #para {
   font-size: 1.9rem;
   line-height: 3rem;
-  width: 80vw;
+  width: 85%;
   text-align: center;
   margin: auto;
   margin-bottom: 4rem;
-  margin-right: 9rem;
+  margin-right: 15rem;
 }
 
 #plans {
@@ -530,7 +530,7 @@ body {
   width: 40vw;
   margin: auto;
   text-align: center;
-  margin-right: 10rem;
+  margin-right: 13rem;
 }
 
 .manifesto{
